@@ -3,7 +3,6 @@ import "./room.css";
 
 function Room () {
     let [isLit , setLit] = useState(false);
-    let [isLite , setLite] = useState(true);
     let [istemp , setTemp] = useState(24);
     return (
         <div className ={` room ${isLit? "lit" :"dark"}`}>
